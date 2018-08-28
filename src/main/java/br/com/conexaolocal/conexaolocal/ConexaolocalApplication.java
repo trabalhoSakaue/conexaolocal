@@ -13,5 +13,8 @@ public class ConexaolocalApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ConexaolocalApplication.class, args);
+		
 	}
+	
+	
 }
