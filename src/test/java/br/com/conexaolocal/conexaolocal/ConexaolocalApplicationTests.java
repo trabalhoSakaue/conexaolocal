@@ -21,7 +21,7 @@ public class ConexaolocalApplicationTests {
 	public void setTituloOk() {
 		Hello hello = new Hello();
 		hello.setTitulo("Good Morning");
-		assertEquals("Good Morni",hello.getTitulo());
+		assertEquals("Good Morning",hello.getTitulo());
 	}
 	
 	
