@@ -1,5 +1,6 @@
 package br.com.conexaolocal.entidade;
 
+
 public class Hello {
 	
 	private String titulo;
