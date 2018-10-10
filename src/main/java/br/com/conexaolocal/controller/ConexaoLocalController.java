@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.conexaolocal.entidade.Hello;
 
 @RestController
-@CrossOrigin()
+@CrossOrigin
 @RequestMapping("/api")
 public class ConexaoLocalController {
 	 
