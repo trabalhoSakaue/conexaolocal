@@ -9,12 +9,11 @@ import br.com.conexaolocal.entidade.Hello;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/api")
 public class ConexaoLocalController {
 	 
 	
 	
-	@GetMapping
+	@RequestMapping("/api")
 	public Hello homePage() {
 		Hello hello = new Hello();	
 		hello.setTitulo("Hello World");
