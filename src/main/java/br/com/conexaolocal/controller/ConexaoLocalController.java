@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 import br.com.conexaolocal.entidade.Hello;
 
 @RestController
@@ -20,5 +21,5 @@ public class ConexaoLocalController {
 	    return hello;
     }
 	
-
+	
 }
