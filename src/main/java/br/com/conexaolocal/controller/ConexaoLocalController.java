@@ -13,7 +13,7 @@ public class ConexaoLocalController {
 	 
 	
 	
-	@RequestMapping("/api")
+	@RequestMapping("/")
 	public Hello homePage() {
 		Hello hello = new Hello();	
 		hello.setTitulo("Hello World");
