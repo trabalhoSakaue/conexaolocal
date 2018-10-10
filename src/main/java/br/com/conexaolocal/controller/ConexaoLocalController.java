@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.conexaolocal.entidade.Hello;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin()
 @RequestMapping("/api")
 public class ConexaoLocalController {
 	 
