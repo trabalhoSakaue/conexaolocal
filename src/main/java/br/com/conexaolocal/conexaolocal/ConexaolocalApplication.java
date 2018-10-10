@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @ServletComponentScan
 @SpringBootApplication
-@ComponentScan("br.com.conexaolocal.conexaolocal")
+@ComponentScan("br.com.conexaolocal")
 public class ConexaolocalApplication {
 	
 	public static void main(String[] args) {
